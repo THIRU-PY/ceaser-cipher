@@ -5,7 +5,7 @@ print('''
 █▀▀ █──█ █── █▄▄▀ █▄▄█ █──█ ──█── 　 █▄▄█ █──█ █──█ 　 █──█ █▀▀ █── █▄▄▀ █▄▄█ █──█ ──█── 
 ▀▀▀ ▀──▀ ▀▀▀ ▀─▀▀ ▄▄▄█ █▀▀▀ ──▀── 　 ▀──▀ ▀──▀ ▀▀▀─ 　 ▀▀▀─ ▀▀▀ ▀▀▀ ▀─▀▀ ▄▄▄█ █▀▀▀ ──▀──''')
 
-
+print("\nWarning:\tIncludes Symbols too")
 message=input("\nEnter your message:\t")
 en_shift=int(input("\nHow many Shifts:\t"))
 en_msg=encrypt(message,en_shift)
